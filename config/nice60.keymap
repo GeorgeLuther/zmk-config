@@ -14,12 +14,12 @@
 		compatible = "zmk,keymap";
 		
 		default_layer {
-// ------------------------------------------------------------------------------------------ ___ALL_OK
-// | GRAVE |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |   BKSP   |
+// ------------------------------------------------------------------------------------------ 
+// | GRAVE |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  0  |  -  |  =  |  BKSP  |
 // | TAB  |  Q  |  W  |  E  |  R  |  T  |  Y  |  U  |  I  |  O  |  P  |  [  |  ]  |   "|"   |
-// | MO(2)  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |     ENTER    |
+// | MO(2)  |  A  |  S  |  D  |  F  |  G  |  H  |  J  |  K  |  L  |  ;  |  '  |    ENTER    |
 // |  SHIFT  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |      SHIFT       |
-// |  CTL  |  WIN  |  ALT  |            SPACE              |  ALT  |  MENU  |  CTL |  MO (1)  |
+// |  CTL  |  WIN  |  ALT  |            SPACE            |  ALT  |  MENU  |  CTL |  MO (1)  |
 // ------------------------------------------------------------------------------------------
 			bindings = <
 	&kp GRAVE  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL  &kp BSPC
@@ -41,7 +41,7 @@
 			bindings = <
 	&gresc   &kp F1    &kp F2    &kp F3  &kp F4   &kp F5    &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &kp DEL
 	&trans  &kp HOME   &kp UP    &kp END  &trans &kp PERCENT &kp CARET &kp N7   &kp N8    &kp N9  &kp CLEAR  &kp HOME      &kp END  &trans
-	&trans   &kp LEFT  &kp DOWN  &kp RIGHT &pk MUTE &kp SLASH &kp ASTERISK   &kp N4    &kp N5    &kp N6     &kp PG_DN    &kp PG_UP   &kp ENTER
+	&trans   &kp LEFT  &kp DOWN  &kp RIGHT &pk C_MUTE &kp SLASH &kp ASTERISK   &kp N4    &kp N5    &kp N6     &kp PG_DN    &kp PG_UP   &kp ENTER
 	&kp LSHFT    &kp C_PREV  &kp C_RW  &kp C_FF &kp C_NEXT &kp MINUS   &kp PLUS  &kp N1   &kp N2    &kp N3    &kp UP                &kp RSHFT
 	&kp LCTRL  &kp LGUI   &kp LALT                            &kp C_PLAY_PAUSE                      &kp LEFT   &kp DOWN   &kp RIGHT    &trans
 			>;
@@ -50,7 +50,7 @@
 
 		rgb_layer {
 // ------------------------------------------------------------------------------------------------
-// | BT CLR  | BT 1  | BT 2  | BT 3  | BT 4  |     |     |     |     |      |     |     |     |   DEL  | ___OK
+// | BT CLR  | BT 1  | BT 2  | BT 3  | BT 4  |     |     |     |     |      |     |     |     |   DEL  | 
 // |   |  SC LOCK | CAPS | NUM LOCK | PRT SCR  |   |   |   |   |   |   | EFFECT REV |  EFFECT FORW |   |
 // |          |    |      | C_BRI_UP | BRIUP | SPDUP | HUEUP | SATUP |     |     | PG DN | PG UP |  ENTER     |
 // |  SHIFT      |     |      |C_BRI_DN| BRIDN | SPDDN | HUEDN | SATDN | HOME  |  END  | UP  |    SHIFT       |
