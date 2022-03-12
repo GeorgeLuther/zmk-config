@@ -29,4 +29,5 @@
 	&kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &kp RALT  &kp K_CMENU  &kp RCTRL   &mo 1
 			>;
 		}; 
+	};
 };
